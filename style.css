@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+.head{
+    margin-left: 21%;
+
+}
+header
+{
+    position: sticky;
+    margin-top:0;
+    height:60px;
+    width: 100%;
+    background-color: #ffff;
+    padding: 10px;
+    
+}
+header
+{
+    margin-top:o;
+    position: sticky;
+    top: 0;
+    
+}
+nav ul li
+{
+    display:inline-block;
+    position:relative;
+    margin-left:1%; 
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size:17px;
+    color:#222222;
+    display: block;
+    padding:10px 10px; 
+}
+ul li a:hover
+{
+    border-bottom: 3px #eb0000 solid;
+}
+ul li a i
+{
+    font-size: 18px;
+}
+ul li ul.latest li a,ul li ul.find li a,ul li ul.articles li a,ul li ul.tour li a,ul li ul.about li a
+{
+    color: rgb(37, 37, 37);
+    background-color:white;
+    text-align: left;width:210px;
+    padding: 10px 0px 10px 10px; border: none;
+}
+ul li ul.latest li a:hover,ul li ul.find li a:hover,ul li ul.articles li a:hover,ul li ul.tour li a:hover,ul li ul.about li a:hover
+{
+text-decoration: underline;
+}
+
+ul li ul.latest li,ul li ul.find li,ul li ul.articles li,ul li ul.tour li,ul li ul.about li
+{
+    display:block;
+}
+ul li ul.latest,ul li ul.find,ul li ul.articles,ul li ul.tour,ul li ul.about
+{
+position:absolute;
+z-index:1;
+display:none;
+width: 100%;
+}
+ul.about ul.about-dd
+{
+    position:absolute;
+    z-index:1;
+    display:none;
+    left:210px;
+    top:20px;
+    width:100%;
+}
+ul li:hover ul.latest,ul li:hover ul.find,ul li:hover ul.articles,ul li:hover ul.tour,ul li:hover ul.about,ul.about li:hover ul.about-dd
+{
+    display: block;
+}
+div .para1{
+    font-size: 20px;
+}
+.para1 h2{
+    margin-left:5%;
+    font-family:sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 25px;
+}
+.para1 p{
+    margin-left:24%;
+    color:gray;
+    font-size: 17px;
+    font-family:sans-serif;
+}
+.bex{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    margin-left:0.5%;
+    font-family:sans-serif;
+}
+.para1 span{
+    font-family:sans-serif;
+    padding:10px;
+}
+.bex:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.para1 .ab{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    margin-left:35%;
+    font-family:sans-serif;
+
+}
+.para2, .para3, .para4{
+    font-size: 18px;
+    align-items: center;
+    margin-right:25%;
+    font-family:sans-serif;
+}
+div select{
+    font-size: 20px;
+    font-family:sans-serif;
+    border: none;
+}
+nav h3{
+    font-family:sans-serif;
+    font-size:20px;
+}
+.india{
+    color: rgb(211, 28, 28);
+    font-weight: bold;
+}
+.eight{
+    color: rgb(211, 28, 28);
+    font-weight: bold;
+}
+ol .list, ol .list-1{
+    list-style: square;
+    margin-left: 5%;
+}
+.quat-1, .quat-5{
+    color: gray;
+    margin-left: 1%;
+    font-style: italic;
+    
+}
+.quat-2, .quat-3, .quat-4, .quat-6, .quat-7, .quat-8, .quat-9, .quat-10{
+    color: gray;
+    margin-left: 5%;
+    font-style: italic;
+}
+.socialmedia-3 :hover{
+    color: red;
+}
+.socialmedia-1 :hover{
+    color: rgb(103, 103, 212);
+}
+.socialmedia-2 :hover{
+    color: black;
+}
+.author .profile-pic 
+{
+margin-right:50px;
+height:150px;width: 150px;
+}
+.profile-pic img
+{
+    border:solid 1px black;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+}
+.author .bio h5 a
+{
+    text-decoration: none;
+    color: #313131;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.author .bio h5 a:hover
+{
+    text-decoration: underline;
+}
+.author .bio p{
+    font-family:sans-serif;
+    font-size: 17px;
+    line-height: 1.7; 
+    color:gray;
+   
+} 
+.author
+{
+    display: flex;
+    margin:60px 60px;
+    text-align:left;
+}
+.back
+{
+    mix-blend-mode: multiply;
+    margin:60px 0 80px 0;
+    width: 200px;
+    height: 200px;
+}
+.angle-up
+{
+    padding-bottom: 25px;
+    padding-left: 48%;
+    cursor: pointer;
+}
+.angle-up a
+{
+    color: #414040;
+    text-decoration: none;
+    font-size: 14px;
+    
+   
+}
+.footer
+{
+    background-color:#292929;
+    color:white;
+    height:140%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 25px;
+
+}
+.footer .logo
+{
+    display: flex;align-items: center;
+}
+.footer i
+{
+    font-size:25px;
+}
+.footer a
+{
+    color: #dbdada;
+}
+.footer p,.footer a
+{
+    font-size: 13px;
+    font-family:monospace;
+    font-weight:lighter;
+}
+.logo a:hover
+{
+    text-decoration:none;
+}
+.foot{
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
